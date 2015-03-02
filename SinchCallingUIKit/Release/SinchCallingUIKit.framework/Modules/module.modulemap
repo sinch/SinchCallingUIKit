@@ -1,0 +1,6 @@
+framework module SinchCallingUIKit {
+  umbrella header "SinchCallingUIKit.h"
+
+  export *
+  module * { export * }
+}
