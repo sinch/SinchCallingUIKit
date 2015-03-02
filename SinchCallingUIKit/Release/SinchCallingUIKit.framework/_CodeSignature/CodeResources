@@ -6,11 +6,11 @@
 	<dict>
 		<key>CallScreenViewController.nib</key>
 		<data>
-		bD8L6W2rtyDsh2cQJ3uUqwz49jM=
+		AiA+f7r6jJ1WVedGj1ffCdIrewo=
 		</data>
 		<key>Headers/CallingManager.h</key>
 		<data>
-		s9LPYC/BQyrFmekmBv9d6KcE6sg=
+		zP91LUCW2CVaaUKAlyKIHLfTMkc=
 		</data>
 		<key>Headers/SinchCallingUIKit.h</key>
 		<data>
@@ -31,6 +31,10 @@
 		<key>hangup.png</key>
 		<data>
 		zkpN8a4NQGUgiI7WHdEjHumH7es=
+		</data>
+		<key>incoming.wav</key>
+		<data>
+		fGCpZN7Prh2BExqaWEv+TsjQvuQ=
 		</data>
 		<key>keypad.png</key>
 		<data>
@@ -65,11 +69,11 @@
 	<dict>
 		<key>CallScreenViewController.nib</key>
 		<data>
-		bD8L6W2rtyDsh2cQJ3uUqwz49jM=
+		AiA+f7r6jJ1WVedGj1ffCdIrewo=
 		</data>
 		<key>Headers/CallingManager.h</key>
 		<data>
-		s9LPYC/BQyrFmekmBv9d6KcE6sg=
+		zP91LUCW2CVaaUKAlyKIHLfTMkc=
 		</data>
 		<key>Headers/SinchCallingUIKit.h</key>
 		<data>
@@ -86,6 +90,10 @@
 		<key>hangup.png</key>
 		<data>
 		zkpN8a4NQGUgiI7WHdEjHumH7es=
+		</data>
+		<key>incoming.wav</key>
+		<data>
+		fGCpZN7Prh2BExqaWEv+TsjQvuQ=
 		</data>
 		<key>keypad.png</key>
 		<data>

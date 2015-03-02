@@ -40,7 +40,7 @@
 
 -(void)client:(id<SINCallClient>)client didReceiveIncomingCall:(id<SINCall>)call
 {
-    NSLog(@"%ld", [UIApplication sharedApplication].applicationState);
+   
     
 //    if ([UIApplication sharedApplication].applicationState != UIApplicationStateBackground)
 //    {

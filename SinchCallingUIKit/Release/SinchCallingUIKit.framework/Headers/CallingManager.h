@@ -7,12 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface CallingManager : NSObject
 + (CallingManager*)sharedManager;
 
--(void)startClientWithKey:(NSString*)appKey secret:(NSString*)secret userName:(NSString*)userName sandbox:(bool)sandbox;
+-(void)startClientWithKey:(NSString*)appKey secret:(NSString*)secret userName:(NSString*)userName sandbox:(bool)sandbox launchOptions:(NSDictionary*)launchOptions;
 -(void)callNumber:(NSString *)phoneNumber;
 -(void)callUser:(NSString*)userName;
+-(void)handleLocalNotification:(UILocalNotification*)notification ;
+
 
 @end
