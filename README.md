@@ -10,6 +10,9 @@ I also wanted to have as unobtrusive design on the call screen so that it would 
 
 Worth mentioning is that this frameworks is using ActiveBackground connections so you must set the VoIP background mode and Audio background mode on your main app.
 
+You can download the tar from here [https://sinch.com/download/SinchCallingUIKit.tar.gz]() - we need to add here [https://github.com/sinch/SinchCallingUIKit]()
+or check it out and modify it on github. 
+
 ## Did we manage
 In part, for making outbound PSTN calls there is only two lines of codes required. If you want to support DATA-DATA with background calling there is one more line of code. When you use the framework it will give your three screen pretty similar to iOS 8 look
 
@@ -55,3 +58,8 @@ The last step to add background calling is to add the below code
     [[CallingManager sharedManager] handleLocalNotification:notification];
 }
 ```  
+
+Thats it! We are really interested to know how you feel about these kind of libraries, tweet me a @cjsinch or mail me at christian@sinch.com.
+ 
+You can download the tar from here [https://sinch.com/download/SinchCallingUIKit.tar.gz]() - we need to add here [https://github.com/sinch/SinchCallingUIKit]()
+or check it out and modify it on github. 
