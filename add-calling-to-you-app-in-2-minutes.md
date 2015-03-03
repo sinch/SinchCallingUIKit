@@ -22,7 +22,7 @@ The next thing I need to do is to initialize the SinchCallingUIKit, in my projec
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// removed alot of code for clarity ;)
     [[CallingManager sharedManager]
-     startClientWithKey:@"mysecret"
+     startClientWithKey:@"mykey"
      secret:@"mysecret"
      userName:[User currentUser] sandbox:YES
      launchOptions:launchOptions];
