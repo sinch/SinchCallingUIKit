@@ -8,7 +8,7 @@ iRezQ is an app that warns you about traffic accidents around you, it detects tr
 ## Setup 
 I Downloaded the framework here [https://www.dropbox.com/s/462krss0k4ov8x3/SinchCallingUIKit.tar.gz?dl=0]() or check out the the github repo [https://github.com/sinch/SinchCallingUIKit]()
 First I drop it as an embedded binary in my project (don't forget to check that freaking copy if needed box)
-![](images/embedded.png)
+![](Images/embedded.png)
 Second I add the **other linker flags** `-ObjC -Xlinker -lc++` in my targets build settings.
 The last thing in setup I need to add the required frameworks by sinch, AudioToolbox, AVFoundation and Security.framework. 
 (Hey, if you like this kit, I can make available as an pod so you don't even have to the above steps.)
