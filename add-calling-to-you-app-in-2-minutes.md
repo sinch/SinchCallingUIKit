@@ -47,20 +47,20 @@ Thats it, now I am ready to show this to the product owner, in just a few minute
 <table>
 <tr>
 <td>
-<img src="images/irezqstart.png"> 
+<img src="Images/irezqstart.PNG"> 
 </td>
 <td>
-<img src="images/manual.png"> 
+<img src="Images/manual.PNG"> 
 </td>
 
 <td>
-<img src="images/calling.png"> 
+<img src="Images/calling.png"> 
 </td>
 <td>
-<img src="images/incomming.png">
+<img src="Images/incomming.png">
 </td>
 <td>
-<img src="images/incall.png">
+<img src="Images/incall.png">
 </tr>
 </table>
 

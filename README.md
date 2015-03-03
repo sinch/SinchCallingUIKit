@@ -19,7 +19,7 @@ In part, for making outbound PSTN calls there is only two lines of codes require
 <table>
 <tr>
 <td>
-<img src="images/calling.png"> 
+<img src="Images/calling.png"> 
 </td>
 <td>
 <img src="images/incomming.png">
