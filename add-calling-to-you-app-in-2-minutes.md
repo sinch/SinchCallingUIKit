@@ -6,7 +6,7 @@ So I have a minor investment in a company called iRezQ and I wanted to try out i
 iRezQ is an app that warns you about traffic accidents around you, it detects traffic accidents by using your accelerometer with a algoritm that they developed with some insurance companies. But plugging iRezQ.
 
 ## Setup 
-I Downloaded the framework here [https://www.dropbox.com/s/462krss0k4ov8x3/SinchCallingUIKit.tar.gz?dl=0]() or check out the the github repo [https://github.com/sinch/SinchCallingUIKit]()
+I Downloaded the framework [here](https://www.dropbox.com/s/462krss0k4ov8x3/SinchCallingUIKit.tar.gz?dl=0) or check out the the github repo [https://github.com/sinch/SinchCallingUIKit]()
 First I drop it as an embedded binary in my project (don't forget to check that freaking copy if needed box)
 
 ![](Images/embedded.png)
