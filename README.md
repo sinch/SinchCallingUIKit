@@ -1,5 +1,5 @@
-# Introducing Sinch Calling UIKit for iOS
-If you like me when you try out a new SDK or service you just want something simple to start with and be able to test it out in minutes and build prototypes. While our SDK is super simple ;use you still have to add your own UI to work. Today we are releasing a beta of a UIKit for the Sinch SDK that is completely opens source and free to change and use as you see fit. 
+# Introducing UI framework for the Sinch toolkit
+If you like me when you try out a new SDK or service you just want something simple to start with and be able to test it out in minutes and build prototypes. While our SDK is super simple to use; you still have to add your own UI to work. Today we make this solution open source and you are free to use it as you wish. 
 
 When we started to build this we had the vision that you should be able to write just two lines of code to make an outgoing call with ui and everything. 
 
@@ -29,7 +29,8 @@ In part, for making outbound PSTN calls there is only two lines of codes require
 </tr>
 </table>
 
-## Call a regular phone
+## Call to a regular phone
+In your app, 
 ##### 1 Download the framework here and add it to you project as an embedded binary (sorry iOS 8 only)
 
 ##### 2 in your AppDelegate.m 
