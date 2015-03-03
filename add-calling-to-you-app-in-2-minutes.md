@@ -18,7 +18,7 @@ The last thing in setup I need to add the required frameworks by sinch, AudioToo
 ## Initializing Sinch at the right time. 
 The next thing I need to do is to initialize the SinchCallingUIKit, in my project I need to do that in two places, on app launch if its not the first launch or right after account creation or login. In this app thats in AppDelegate and a VerifyCode controller. 
 
-```
+```objectivec
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// removed alot of code for clarity ;)
     [[CallingManager sharedManager]
@@ -26,11 +26,8 @@ The next thing I need to do is to initialize the SinchCallingUIKit, in my projec
      secret:@"mysecret"
      userName:[User currentUser] sandbox:YES
      launchOptions:launchOptions];
-
-    // Override point for customization after application launch.
     return YES;
 }
-
 ```
 The [User currentUser] is an internal object to iRezQ where I keep the user info about the currently logged in user. 
 
@@ -40,7 +37,7 @@ I added the same line of code to my controller where I verify the user.
 In iRezQ there is a premium feature where you can call and ask for help, right now the app is sending an alert to the operator that they should call them. 
 
 I remove that code and add the import to my controller and the following line of code
-```
+```objectivec
 [[CallingManager sharedManager] callNumber:@"irezQAlarmnumber"];
 ```
 
