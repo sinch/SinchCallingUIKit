@@ -13,7 +13,7 @@ You can download the tar from [here](https://sinch.com/download/SinchCallingUIKi
 or check it out and modify it on GitHub. 
 
 ## How it looks
-Using Sinch, there are only two lines of code needed to make outbound PSTN calls. If you want to support DATA-DATA with background calling, add one more line of code, which you can find in our [documentation](https://www.sinch.com/docs/ios/user-guide/#calling). When you use the framework, it will give your three screens, very similar to the calling screens on iOS 8.
+Using Sinch, there are only two lines of code needed to make outbound PSTN calls using our [Voice API](https://www.sinch.com/products/voice-api/). If you want to support DATA-DATA with background calling, add one more line of code, which you can find in our [documentation](https://www.sinch.com/docs/ios/user-guide/#calling). When you use the framework, it will give your three screens, very similar to the calling screens on iOS 8.
 
 <table>
 <tr>
