@@ -91,7 +91,7 @@
 /// public Methods
 -(void)startClientWithKey:(NSString*)appKey secret:(NSString*)secret userName:(NSString*)userName sandbox:(bool)sandbox launchOptions:(NSDictionary*)launchOptions
 {
-    NSString* url = sandbox ? @"sandbox.sinch.com" : @"sandbox.sinch.com";
+    NSString* url = sandbox ? @"sandbox.sinch.com" : @"clientapi.sinch.com";
     sinchClient = [Sinch clientWithApplicationKey:appKey applicationSecret:secret environmentHost:url userId:userName];
     [sinchClient setSupportCalling:YES];
     [sinchClient setSupportMessaging:YES];
